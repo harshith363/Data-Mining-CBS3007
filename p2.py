@@ -15,6 +15,7 @@ data['Date'] = pd.to_datetime(data['Date'], format='%d-%m-%Y')
 # Set the 'Date' column as the index
 data.set_index('Date', inplace=True)
 
+print("Harshith 21BBS0163")
 # Line Plot
 plt.figure(figsize=(12, 6))
 plt.plot(data.index, data['Motor Gasoline Price ($/gallon) Real'],
